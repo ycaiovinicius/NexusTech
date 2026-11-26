@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusTech - Início</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>NexusTech</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="aplicativos.html">Aplicativos</a>
+        <a href="mercado.html">Mercado</a>
+        <a href="seguranca.html">Segurança</a>
+        <a href="index.html#contato">Contato</a>
+        <a href="admin.php">Gerenciar notícias</a>
+    </nav>
+</header>
+<main>
+<section class="apresentacao">
+    <h2>Bem-vindo ao NexusTech!</h2>
+    <p>Este site apresenta algumas novidades e informações sobre tecnologia, aplicativos e segurança digital.</p>
+    <img src="img/rede-tecnologica.jpg" alt="Imagem sobre tecnologia">
+</section>
+<section>
+    <h2>Notícias e assuntos</h2>
+    <input type="text" id="campoPesquisa" placeholder="Digite um assunto">
+    <button id="btnPesquisar">Pesquisar</button>
+    <div class="noticias" id="listaNoticias">
+        <article class="card">
+            <img src="img/cerebro-digital.jpg" alt="Inteligência artificial">
+            <h3>Inteligência artificial</h3>
+            <p>A inteligência artificial está presente em ferramentas usadas para estudar, trabalhar e realizar tarefas.</p>
+            <p class="detalhes">Ela pode ajudar a organizar informações e responder perguntas, mas é importante conferir os resultados.</p>
+            <button class="botao-leia">Leia mais</button>
+        </article>
+        <article class="card">
+            <img src="img/apps-conectados.jpg" alt="Aplicativos no celular">
+            <h3>Aplicativos úteis</h3>
+            <p>Existem aplicativos que ajudam a organizar compromissos, tarefas e estudos.</p>
+            <p class="detalhes">Calendários e listas são exemplos de ferramentas que podem facilitar a rotina.</p>
+            <button class="botao-leia">Leia mais</button>
+        </article>
+        <article class="card">
+            <img src="img/dados-mercado.jpg" alt="Mercado de tecnologia">
+            <h3>Mercado de tecnologia</h3>
+            <p>O conhecimento em tecnologia é importante em várias áreas do mercado de trabalho.</p>
+            <p class="detalhes">Programação, lógica e conhecimentos digitais podem ser desenvolvidos com estudo e prática.</p>
+            <button class="botao-leia">Leia mais</button>
+        </article>
+    </div>
+    <p id="semResultado"></p>
+</section>
+<section id="contato">
+    <h2>Entre em contato</h2>
+    <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</main>
+<footer><p>NexusTech - Trabalho de Desenvolvimento Web</p></footer>
+</body>
+</html>
