@@ -8,7 +8,7 @@
 **Instituição:** Estácio  
 **Ano:** 2026  
 
-**GitHub:** [COLOCAR LINK DO REPOSITÓRIO]
+**GitHub:** https://github.com/ycaiovinicius/NexusTech
 
 ## 2. Sobre o projeto
 
@@ -43,7 +43,25 @@ Em seguida, decidi fazer também a parte extra em PHP. Para isso, criei um banco
 Durante o desenvolvimento, utilizei o VS Code para editar os arquivos e o XAMPP para executar e testar o projeto no computador.
 
 
-## 5. Dificuldades e aprendizados
+## 5. Capturas de tela
+
+### Página inicial
+![Tela Inicial do NexusTech](screenshots/Tela%20Inicial.png)
+
+### Página de Aplicativos
+![Tela de Aplicativos](screenshots/Tela%20de%20Aplicativos.png)
+
+### Página de Mercado
+![Tela de Mercado](screenshots/Tela%20Mercado.png)
+
+### Página de Segurança
+![Tela de Segurança](screenshots/Tela%20de%20Segurança.png)
+
+### Painel PHP
+![Painel PHP](screenshots/Painel%20PHP.png)
+
+
+## 6. Dificuldades e aprendizados
 
 Uma das dificuldades foi fazer todas as páginas funcionarem corretamente e manter os arquivos organizados. A parte do PHP também achei mais dificil, precisei de mais atenção principalmente na configuração do banco de dados e na conexão utilizando PDO.
 
@@ -51,7 +69,7 @@ Com esse trabalho, consegui praticar melhor HTML, CSS e JavaScript, além de apr
 
 Também pude entender melhor como diferentes tecnologias podem ser utilizadas juntas para desenvolver um site.
 
-## 6. Conclusão
+## 7. Conclusão
 
 O desenvolvimento do NexusTech foi uma oportunidade de colocar em prática o que foi aprendido durante a disciplina. Consegui criar um site com várias páginas, adicionar funcionalidades com JavaScript e desenvolver um painel de gerenciamento utilizando PHP e banco de dados.
 
